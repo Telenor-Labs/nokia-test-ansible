@@ -1,0 +1,5 @@
+---
+ - hosts: all
+   tasks:
+     - name: Run command
+       shell: echo "Hello NCOM"
